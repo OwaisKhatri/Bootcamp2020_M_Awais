@@ -21,4 +21,4 @@ jobs:
     - name: Installing Surge
       uses: npm install -g surge
     - name: Deploying using surge
-      uses: surge ./ bootcamp2020_m_awais.surge.sh token ${{ secrets.SURGE_TOKEN }}
+      uses: surge ./ bootcamp2020_m_awais.surge.sh --token ${{ secrets.SURGE_TOKEN }}
